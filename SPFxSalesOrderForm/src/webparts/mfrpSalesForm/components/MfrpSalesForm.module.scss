@@ -1,0 +1,146 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.mfrpSalesForm {
+  .container {
+    background-color: rgb(151, 221, 85);
+    max-width: 700px;
+    color: rgb(255, 255, 255);
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: rgb(110, 48, 64);
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+    text-align: center;
+    // color: black;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+  }
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      width: 150px;
+      vertical-align: top;
+      display: inline-block;
+      margin-right: 10px;
+      text-align: left;
+    }
+    .input{
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 30px;
+      // text-align: center;
+      width: 190px;
+    }
+    .add{
+      background-color: rgb(0, 128, 0);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      height:30px;
+      width: 50px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .edit{
+      background-color: rgb(253, 253, 7);
+      color:rgb(0, 0, 0);
+      cursor: pointer;
+      height:30px;
+      width: 50px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .reset{
+      background-color: rgb(245, 222, 179);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      height:30px;
+      width: 70px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .delete{
+      background-color:rgb(247, 4, 4);
+      color: #080808;
+      cursor: pointer;
+      height:30px;
+      width: 70px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+    }  
+    .update{
+      background-color:rgb(247, 174, 38);
+      color: #080808;
+      cursor: pointer;
+      height:30px;
+      width: 70px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+      display: none;
+    }  
+}
+
+table,th,td{
+  border: 2px,solid,rgb(20, 20, 20);
+  border-collapse: collapse;
+  padding: 5px;
+}

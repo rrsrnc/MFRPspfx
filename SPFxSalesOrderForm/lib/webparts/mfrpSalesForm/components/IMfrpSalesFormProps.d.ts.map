@@ -1,0 +1,1 @@
+{"version":3,"file":"IMfrpSalesFormProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/mfrpSalesForm/components/IMfrpSalesFormProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,4BAA4B,CAAC;AAE5D,MAAM,WAAW,mBAAmB;IAClC,WAAW,EAAE,MAAM,CAAC;IACrB,SAAS,EAAC,cAAc,CAAC;CACzB"}

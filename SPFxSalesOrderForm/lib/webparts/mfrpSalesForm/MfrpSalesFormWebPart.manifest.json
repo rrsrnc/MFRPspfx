@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7ffacf9a-3d80-4566-bcfc-16c5e69e846b",
+  "alias": "MfrpSalesFormWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "mfrp-sales-form" },
+    "description": { "default": "mfrp-sales-form description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "mfrp-sales-form"
+    }
+  }]
+}
